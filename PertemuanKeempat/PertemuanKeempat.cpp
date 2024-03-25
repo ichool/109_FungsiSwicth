@@ -42,7 +42,7 @@ int main() {
         cout << "3. perkalian" << endl;
         cout << "4. pembagian" << endl;
         cout << "5. keluar" << endl;
-        cout << "masukan menu yang ingin di pilihih (1/2/3/4/5)" << endl;
+        cout << "masukan menu yang ingin di pilihih (1/2/3/4/5) =" << endl;
         cin >> pilihan;
 
 
@@ -57,38 +57,39 @@ int main() {
 
         case 2:
             input();
-            cout << "hasil pengurangan =" << penjumlahan(a, b) << endl;
+            cout << "hasil pengurangan =" << pengurangan(a, b) << endl;
             system("pause");
             break;
 
         case 3:
             input();
-            cout << "hasil perkalian =" << penjumlahan(a, b) << endl;
+            cout << "hasil perkalian =" << perkalian(a, b) << endl;
             system("pause");
             break;
 
         case 4:
             input();
-            cout << "hasil pembagian =" << penjumlahan(a, b) << endl;
+            cout << "hasil pembagian =" << pembagian(a, b) << endl;
             system("pause");
             break;
 
 
+        case 5:
+            break;
+        default:
+
+            cout << "menu tidak tersedia silahkan pilih lagi !!! =" << penjumlahan(a, b) << endl;
+            system("pause");
+            break;
+
         }
 
-    }
+    } while (pilihan != 5);
 
 }
 
 
 
 
-
-
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
 
 
