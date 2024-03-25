@@ -44,6 +44,38 @@ int main() {
         cout << "5. keluar" << endl;
         cout << "masukan menu yang ingin di pilihih (1/2/3/4/5)" << endl;
         cin >> pilihan;
+
+
+
+        switch (pilihan) {
+
+        case 1:
+            input();
+            cout << "hasil penjumlahan =" << penjumlahan(a, b) << endl;
+            system("pause");
+            break;
+
+        case 2:
+            input();
+            cout << "hasil pengurangan =" << penjumlahan(a, b) << endl;
+            system("pause");
+            break;
+
+        case 3:
+            input();
+            cout << "hasil perkalian =" << penjumlahan(a, b) << endl;
+            system("pause");
+            break;
+
+        case 4:
+            input();
+            cout << "hasil pembagian =" << penjumlahan(a, b) << endl;
+            system("pause");
+            break;
+
+
+        }
+
     }
 
 }
